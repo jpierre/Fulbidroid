@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <ImageView 
+        android:id="@+id/ImgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_usmp"
+        />
+     
+      <TextView
+        android:id="@+id/LblBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="Completa los campos para registrarte!" />
+      
+      <TextView
+        android:id="@+id/LblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="Nombre:" />
+ 
+	    <EditText
+	        android:id="@+id/TxtNombre"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text">
+	    </EditText>
+
+	    <TextView
+        android:id="@+id/LblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="Email:" />
+ 
+	    <EditText
+	        android:id="@+id/TxtEmail"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text">
+	    </EditText>	 
+	    
+	    <TextView
+        android:id="@+id/LblUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="Usuario:" />
+ 
+	    <EditText
+	        android:id="@+id/TxtUsuario"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text">
+	    </EditText>	  
+	    
+	    <TextView
+        android:id="@+id/LblPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="Password:" />
+ 
+	    <EditText
+	        android:id="@+id/TxtPassword"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="textPassword">
+	    </EditText>	  
+	    
+	     <Button
+        android:id="@+id/BtnRegistrarme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:drawableLeft="@drawable/registro"
+        android:text="Registrarme" />
+
+</LinearLayout>
